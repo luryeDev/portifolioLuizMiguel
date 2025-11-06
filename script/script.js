@@ -28,16 +28,11 @@
         document.getElementById("conteiner").innerHTML = `
        <div class="card">
   <h2>Sobre Mim</h2>
-  <p>Olá! Meu nome é <strong>Luiz Miguel Souza</strong>, tenho 16 anos e sou estudante da <strong>Etec de Praia Grande</strong>, onde curso <strong>Informática para Internet</strong>, uma formação voltada ao desenvolvimento web e às tecnologias modernas.
-  Onde estudo estou sendo treinado para trabalhar em <strong>Equipe</strong> e sob <strong>Pressão</strong>, habilidades essenciais no mercado de trabalho atual.
+  <p>Olá! Meu nome é <strong>Luiz Miguel Souza</strong>, tenho 16 anos e sou estudante da <strong>Etec de Praia Grande</strong>, onde curso <strong>Informática para Internet</strong>, uma formação voltada ao desenvolvimento web e às tecnologias modernas. Estou sendo treinado para trabalhar em <strong>Equipe</strong> e sob <strong>Pressão</strong>, habilidades essenciais no mercado de trabalho atual.
   </p>
-
   <p>Durante o curso, aprendi e pratiquei diversas linguagens e ferramentas essenciais, como <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, <strong>TypeScript</strong>, <strong>Ionic Framework</strong>, <strong>C++</strong> e <strong>C#</strong>. Essas tecnologias me permitem criar aplicações completas, do front-end ao back-end, com foco em desempenho e uma boa experiência do usuário.</p>
-
   <p>Atualmente, estou em transição para me tornar um <strong>desenvolvedor Full Stack</strong>, ampliando minhas habilidades e aprofundando meus conhecimentos em diferentes áreas da programação.</p>
-
   <p>Estudo e aplico práticas de programação há cerca de 5 anos. Sempre tive interesse na área de informática. comecei com <strong>Python</strong>, desenvolvendo sistemas simples, e logo migrei para o <strong>desenvolvimento web</strong>, onde me encontrei profissionalmente.</p>
-
   <p>Sou um entusiasta da tecnologia e da programação, sempre buscando aprender mais e me aperfeiçoar no que faço. Gosto de transformar ideias em projetos e criar soluções que realmente façam a diferença.</p>
 </div>
         `;
