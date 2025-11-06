@@ -28,7 +28,7 @@
         document.getElementById("conteiner").innerHTML = `
        <div class="card">
   <h2>Sobre Mim</h2>
-  <p>Olá! Meu nome é <strong>Luiz Miguel Souza</strong>, tenho 17 anos e sou estudante da <strong>Etec de Praia Grande</strong>, onde curso <strong>Informática para Internet</strong>, uma formação voltada ao desenvolvimento web e às tecnologias modernas.
+  <p>Olá! Meu nome é <strong>Luiz Miguel Souza</strong>, tenho 16 anos e sou estudante da <strong>Etec de Praia Grande</strong>, onde curso <strong>Informática para Internet</strong>, uma formação voltada ao desenvolvimento web e às tecnologias modernas.
   Onde estudo estou sendo treinado para trabalhar em <strong>Equipe</strong> e sob <strong>Pressão</strong>, habilidades essenciais no mercado de trabalho atual.
   </p>
 
