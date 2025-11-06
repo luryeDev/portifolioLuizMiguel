@@ -44,7 +44,7 @@ h1 {
 
 h2 {
   font-weight: 400;
-  color: #cacaca;
+  color: #FDFD87;
   margin-bottom: 40px;
   font-size: 1.6em;
 }
@@ -83,7 +83,7 @@ nav a {
   align-items: center;
   gap: 10px;
   margin: 12px 0;
-  color: white;
+  color: #d470ff;
   text-decoration: none;
   font-size: 1.3em;
   transition: 0.3s;
@@ -96,12 +96,8 @@ nav a svg {
 }
 
 nav a:hover {
-  color: #b300ff;
+  color: #FDFD87;
   transform: scale(1.08);
-}
-
-nav a:hover svg {
-  fill: #b300ff;
 }
 
 footer {
@@ -117,7 +113,7 @@ footer {
 }
 
 #conteiner h2 {
-  color: #b300ff;
+  color: #FDFD87;
   font-family: "Poppins", sans-serif;
 }
 
@@ -151,7 +147,7 @@ footer {
 }
 
 .card h2 {
-  color: #b300ff;
+  color: #FDFD87;
   font-size: 28px;
   margin-bottom: 15px;
   text-align: center;
@@ -208,7 +204,7 @@ footer {
 }
 
 .hard-column h3 {
-  color: #b300ff;
+  color: #FDFD87;
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
