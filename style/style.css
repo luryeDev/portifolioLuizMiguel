@@ -145,6 +145,9 @@ footer {
   font-size: 20px;
   line-height: 1.6;
   animation: fadeIn 0.5s ease-in-out;
+  box-sizing: border-box;
+  width: 90%;
+  min-width: 280px;
 }
 
 .card h2 {
@@ -171,6 +174,9 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   margin-top: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .soft-item {
@@ -243,4 +249,20 @@ footer {
 .hard-item .icon svg {
   width: 60px !important;
   height: 60px !important;
+}
+
+
+@media (max-width: 900px) {
+  .soft-grid,
+  .hard-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hard-grid {
+    max-width: 700px;
+  }
 }
