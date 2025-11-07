@@ -134,3 +134,63 @@
     </div>
   `;
 }
+
+
+  function projetos() {
+
+      document.getElementById("conteiner").innerHTML = `
+
+    <div class="card">
+      <h2>Meus Projetos:</h2>
+      <div class="proj-grid">
+        <div class="proj-column">
+          <h3>Sites:</h3>
+          <div class="proj-item">
+        <a href="entitys.html" target="_blank"><p><strong>Site Desenvolvido em HTML, CSS e JS com sistema em PHP</strong></p>
+            <img src="projetos/Entitys1.png" style="width: 300px">
+       <p> Site Institucional com sistemas em PHP e banco de dados MySQL </p>
+       <p style="color: yellow;"> Clique para Saber mais! </p>
+            </img><a>
+          </div>
+          <div class="proj-item">
+            <p><strong>Site desenvolvido em HTML, CSS e JS</strong> Neste site eu fiquei apenas com a parte logica e de interação com o usuario (JavaScript). Mas tive presença nas partes de estilo ajudando a equipe.</p>
+            <p> Totem de Auto-Atendimento de restaurantes </p>
+             <p style="color: yellow;"> Clique para Saber mais! </p>
+            </div>
+          <div class="proj-item">
+            <p><strong>Aplicativo desenvolvido em Ionic Framework e TypeScript</strong> nesse aplicativo fiquei apenas com a parte logica. Mas ajudei a equipe com a estilização e identidade visual.</p>
+            <img src="projetos/health.jpg" style="width: 300px">
+            <p> Aplicativo de saúde </p>
+             <p style="color: yellow;"> Clique para Saber mais! </p>
+          </div>
+          <div class="proj-item">
+            <p><strong>Aplicativo desenvolvido em Ionic Framework e TypeScript</strong>. nesse aplicativo fiquei responsavel apenas pela parte logica e marcação.</p>
+              <img src="projetos/combus.jpg" style="width: 300px">
+
+              <p> Aplicativo de Calculo de Consumo de Combustivel </p>
+               <p style="color: yellow;"> Clique para Saber mais! </p>
+          </div>
+          <div class="proj-item">
+           <p><strong>Aplicativo desenvolvido em Ionic Framework e TypeScript</strong></p>
+           <p> Aplicativo de Calculo de Juros Compostos </p>
+            <p style="color: yellow;"> Clique para Saber mais! </p>
+          </div>
+
+          <h2>Outros:</h2>
+          <div class="proj-item">
+           <p><strong>Certificado Imersão DEV Javascript</strong></p>
+          <img src="projetos/imersaodev.png"></img>
+           </div>
+           <div class="proj-item">
+           <p><strong>Certificado Cisco: Maratona de Cyber Segurança</strong></p>
+          <img src="projetos/certificadoCisco.png"></img>
+           </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    `;
+
+  };
