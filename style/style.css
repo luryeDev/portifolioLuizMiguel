@@ -54,6 +54,7 @@ h2 {
   justify-content: center;
   gap: 25px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -105,11 +106,6 @@ footer {
   font-size: 1em;
   color: #aaa;
   padding: 30px 0;
-}
-
-.foto:hover,
-.btn:hover {
-  will-change: transform;
 }
 
 #conteiner h2 {
@@ -252,9 +248,12 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   margin-top: 30px;
-  max-width: 900px;
-  margin-left: 130px;
+  max-width: 1100px;
+  margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .proj-column h3 {
@@ -276,12 +275,12 @@ footer {
   font-size: 18px;
   color: #fff;
   transition: 0.3s ease;
-  min-width: 400px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .proj-item:hover {
@@ -303,11 +302,12 @@ footer {
   .soft-grid,
   .hard-grid,
   .proj-grid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 20px;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    padding: 0 10px;
   }
 
   .proj-item img {
@@ -316,5 +316,39 @@ footer {
 
   .card {
     max-width: 95%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .foto {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .proj-item {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .hard-item {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .soft-item {
+    font-size: 13px;
+    padding: 12px;
   }
 }

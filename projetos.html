@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Projetos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #150f19;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      padding: 40px 10px;
+    }
+
+    h2, h3 {
+      color: #FDFD87;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card {
+      background-color: #150f19;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.05);
+      margin: 0 auto;
+      max-width: 1000px;
+    }
+
+    .proj-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .proj-column {
+      flex: 1 1 400px;
+      max-width: 450px;
+    }
+
+    .proj-item {
+      background-color: #150f19;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+      text-align: center;
+      transition: all 0.3s ease;
+      transform: translateY(0);
+    }
+
+    .proj-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(179, 0, 255, 0.4);
+      background-color: #2a2140;
+    }
+
+    .proj-item img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 10px 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .proj-item:hover img {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(179, 0, 255, 0.6);
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      .proj-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .proj-column {
+        max-width: 100%;
+      }
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    
+
+  <div class="card">
+    <h1><strong>EM DESENVOLVIMENTO</strong></h1>
+    <h1>Meus Projetos:</h1>
+
+    <div class="proj-grid">
+      <div class="proj-column">
+        <h2>Sites:</h2>
+
+        <div class="proj-item">
+          <a href="entitys.html" target="_blank" style="text-decoration: none; color: inherit;">
+            <p><strong>Site Desenvolvido em HTML, CSS e JS com sistema em PHP</strong></p>
+            <img src="projetos/Entitys1.png" alt="Site Entitys Bazaar">
+            <p>Site Institucional com sistemas em PHP e banco de dados MySQL</p>
+            <p style="color: yellow;">Clique para Saber mais!</p>
+          </a>
+        </div>
+
+        <div class="proj-item">
+          <p><strong>Aplicativo desenvolvido em Ionic Framework e TypeScript</strong></p>
+          <img src="projetos/health.jpg" alt="App Health">
+          <p>Aplicativo de saúde</p>
+          <p style="color: yellow;">Clique para Saber mais!</p>
+        </div>
+
+        <div class="proj-item">
+          <p><strong>Aplicativo desenvolvido em Ionic Framework e TypeScript</strong></p>
+          <img src="projetos/combus.jpg" alt="App Combustível">
+          <p>Aplicativo de Cálculo de Consumo de Combustível</p>
+          <p style="color: yellow;">Clique para Saber mais!</p>
+        </div>
+
+        <h2>Outros:</h2>
+
+        <div class="proj-item">
+          <p><strong>Certificado Imersão DEV Javascript</strong></p>
+          <img src="projetos/imersaodev.png" alt="Certificado Imersão Dev">
+        </div>
+
+        <div class="proj-item">
+          <p><strong>Certificado Cisco: Maratona de Cyber Segurança</strong></p>
+          <img src="projetos/certificadoCisco.png" alt="Certificado Cisco">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    ©2025 Luiz Miguel Santos de Souza
+  </footer>
+
+</body>
+</html>
